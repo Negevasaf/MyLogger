@@ -1,0 +1,31 @@
+{
+  "FileAppender": {
+    "name": "FileAppender",
+    "type": "org.example.logger.appenders.files_relate.FileAppender",
+    "path": "C:\\Users\\IMOE001\\Documents\\Java Projects\\Log Appender\\untitled\\src\\main\\java\\access.log"
+  },
+  "LevelRollingAppender": {
+    "name": "FileAppender",
+    "type": "org.example.logger.appenders.files_relate.rolling.LevelRollingAppender",
+    "path": "C:\\Users\\IMOE001\\Documents\\Java Projects\\Log Appender\\untitled\\src\\main\\my logs"
+  },
+  "SizeRollingAppender": {
+    "name": "SizeRollingAppender",
+    "type": "org.example.logger.appenders.files_relate.rolling.SizeRollingAppender",
+    "path": "C:\\Users\\IMOE001\\Documents\\Java Projects\\Log Appender\\untitled\\src\\main\\my logs",
+    "maxSizeBytes": 100000
+  },
+  "TimeRollingFileAppender": {
+    "name": "TimeRollingFileAppender",
+    "type": "org.example.logger.appenders.files_relate.rolling.LevelRollingAppender",
+    "path": "C:\\Users\\IMOE001\\Documents\\Java Projects\\Log Appender\\untitled\\src\\main\\my logs",
+    "minutesToRoll" : 5
+  },
+  "ElasticAppender": {
+    "name": "TimeRollingFileAppender",
+    "type": "org.example.logger.appenders.ElasticAppender",
+    "index" : "my_index",
+    "host": "localhost",
+    "port": 9200
+  }
+}

@@ -1,0 +1,6 @@
+<MyLoggers>
+    <logger name="FileAppender">
+        <type>org.example.logger.appenders.filesAppenders.FileAppender</type>
+        <path>C:\Users\IMOE001\Documents\Java Projects\Log Appender\untitled\src\main\java\access.log</path>
+    </logger>
+</MyLoggers>
