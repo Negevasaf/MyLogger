@@ -55,10 +55,6 @@ public class RollingFileAppender extends AbstractLogger {
     }
 
 
-    public void setFileBaseName(String fileBaseName) {
-        this.fileBaseName = fileBaseName;
-    }
-
 
     @Override
     protected void doLog(MyLog log) throws IOException {

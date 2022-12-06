@@ -38,7 +38,6 @@ public abstract class AbstractLogger {
         doLog(log);
     }
 
-    //Offir told me that whenever I can, I should use functional programming
     protected MyLog getLog(String message, Level level) {
         return this.getLog(message,java.time.LocalDateTime.now(),level);
     }
